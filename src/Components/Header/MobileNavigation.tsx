@@ -31,7 +31,7 @@ const MobileNavigation = () => {
             <div className={`bg-black bg-opacity-60 fixed top-0 right-0 bottom-0 left-0 z-40 transition-all duration-200 ease-in-out ${open ? "opacity-100 visible" : "opacity-0 invisible"} backdrop-blur-sm`} onClick={() => setOpen(false)}></div>
             <div className={`bg-white dark:bg-dark fixed top-0 h-screen z-50 transition-all duration-[225ms] left-0 ease-[cubic-bezier(0, , 0.2, 1)] w-64 ${open ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
                 <div className="relative h-screen w-full">
-                    <div className="w-[100px] mx-auto mt-7 mb-10"><Logo /></div>
+                    <div className="w-[150px] mx-auto mt-7 mb-10"><Logo /></div>
                     <hr />
                     <ul className="flex flex-col gap-2 px-6 mt-4">
                         {Naves.map((item, i) => (

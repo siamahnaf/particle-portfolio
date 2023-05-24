@@ -9,7 +9,7 @@ const About = () => {
             <Container className="grid grid-cols-2 md:grid-cols-2 xxs:grid-cols-1 gap-10 items-start py-8">
                 <div className="mt-4">
                     <h1 className="text-2xl font-bold">Welcome to Particle Educational Institute!</h1>
-                    <p className="font-medium opacity-60 text-base mt-3">At Particle Educational Institute (Academic care) Academic Care, we are dedicated to providing a high-quality education to all of our students.</p>
+                    <p className="font-medium opacity-60 text-base mt-3">Prosperous days with the arrival of a new dawn, All You need is tireless work and endless patience. Is there any alternative to working hard for a better future? No, it's not! Only through hard work you can reach your desired golden peak. Also need proper guidance. PEI (academic care) is extending that hand to you. Your future pioneer comrades-in-arms. Particle extend to you a cordial invitation and best wishes.</p>
                     <p className="font-medium opacity-60 text-base mt-8">Our experienced faculty and staff work hard to create a supportive learning environment that encourages intellectual curiosity, creativity, and personal growth. Our curriculum is designed to provide a well-rounded education that prepares students for success in school, college and beyond.</p>
                     <h1 className="text-2xl font-bold mt-4">Education more than just grades</h1>
                     <p className="font-medium opacity-60 text-base mt-3">We strive to create a community where all students feel valued, </p>

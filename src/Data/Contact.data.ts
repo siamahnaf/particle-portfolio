@@ -20,7 +20,7 @@ const ContactData = [
         title: "Office",
         description: "Come to our office directly!",
         contact: "Road no. 5, 35/1 (Beside Borhanpur Moshjid), Hazaribagh, Dhaka-1209",
-        link: "https://goo.gl/maps/8gQjoyThCqZrZTnB7"
+        link: "https://maps.app.goo.gl/A6sUwhEzpQbJLKfW7"
     }
 ]
 

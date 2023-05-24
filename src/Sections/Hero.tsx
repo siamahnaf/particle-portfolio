@@ -3,7 +3,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 
 const CarouselData = [
-    { src: "/images/banner-1.jpeg", alt: "Banner" }
+    { src: "/images/banner-1.jpeg", alt: "Banner" },
+    { src: "/images/banner-2.jpeg", alt: "Banner2" },
 ]
 
 const Hero = () => {
@@ -36,7 +37,7 @@ const Hero = () => {
                         <div className="embla_container flex">
                             {CarouselData.map((item, i) => (
                                 <div className="embla__slide flex-[0_0_100%] relative w-full aspect-[2.87]" key={i}>
-                                    <Image src={item.src} alt={item.alt} fill className="aspect-video" />
+                                    <Image src={item.src} alt={item.alt} fill className="aspect-video object-cover object-center" />
                                 </div>
                             ))}
                         </div>

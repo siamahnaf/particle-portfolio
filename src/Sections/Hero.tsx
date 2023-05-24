@@ -37,7 +37,7 @@ const Hero = () => {
                         <div className="embla_container flex">
                             {CarouselData.map((item, i) => (
                                 <div className="embla__slide flex-[0_0_100%] relative w-full aspect-[2.87]" key={i}>
-                                    <Image src={item.src} alt={item.alt} fill className="aspect-video object-cover object-center" />
+                                    <Image src={item.src} alt={item.alt} fill className="aspect-video object-cover object-bottom" />
                                 </div>
                             ))}
                         </div>
